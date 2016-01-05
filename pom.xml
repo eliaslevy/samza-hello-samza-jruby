@@ -27,7 +27,7 @@ under the License.
 
   <groupId>org.apache.samza</groupId>
   <artifactId>hello-samza</artifactId>
-  <version>0.9.1</version>
+  <version>0.10.0</version>
   <packaging>jar</packaging>
   <name>Samza Example</name>
   <description>
@@ -86,8 +86,7 @@ under the License.
     <dependency>
       <groupId>org.jruby</groupId>
       <artifactId>jruby</artifactId>
-      <version>1.7.23-SNAPSHOT</version>
-      <type>pom</type>
+      <version>1.7.23</version>
     </dependency>
     <dependency>
       <groupId>rubygems</groupId>
@@ -218,7 +217,7 @@ under the License.
               <verbose>true</verbose>
             </configuration>
           </execution>
-        </executions> 
+        </executions>
       </plugin>
       <plugin>
         <groupId>de.saumya.mojo</groupId>
